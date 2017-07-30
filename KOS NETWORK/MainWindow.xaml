@@ -5,9 +5,21 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:KOS_NETWORK"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525">
-    <Grid>
-        <Label x:Name="label" Content="Hello, World!" HorizontalAlignment="Left" Margin="74,71,0,0" VerticalAlignment="Top" Height="112" Width="245"/>
+        Title="MainWindow" Height="657.801" Width="1161.614" FontFamily="NanumGothic" FontSize="16">
+    <Grid Margin="0,10,-7.333,-29.333" RenderTransformOrigin="0.524,0.378">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="49*"/>
+            <ColumnDefinition Width="173*"/>
+            <ColumnDefinition Width="86*"/>
+            <ColumnDefinition Width="52*"/>
+            <ColumnDefinition Width="56*"/>
+            <ColumnDefinition Width="468*"/>
+        </Grid.ColumnDefinitions>
+        <Label x:Name="label" HorizontalAlignment="Left" Margin="10,488,0,0" VerticalAlignment="Top" Height="94" Width="312" Grid.ColumnSpan="3">
+            <Button x:Name="button" Width="302" Height="84" RenderTransformOrigin="0.612,0.761" FontSize="22" Content="서버 모드로 전환(S)"/>
+        </Label>
+        <Button x:Name="button_Copy" RenderTransformOrigin="0.612,0.761" FontSize="22" Content="클라이언트 모드로 전환(C)" Margin="10.333,488,401.02,66" Grid.Column="3" Grid.ColumnSpan="3"/>
+        <Label x:Name="label1" Content="Label" HorizontalAlignment="Right" Margin="0,54,84.667,0" VerticalAlignment="Top" Grid.ColumnSpan="2" Height="116" Width="308" Grid.Column="1" FontSize="24"/>
 
     </Grid>
 </Window>
