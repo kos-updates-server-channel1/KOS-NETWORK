@@ -13,15 +13,14 @@ namespace WindowsFormsApplication2
         /// </summary>
         /// 
 
-        public static double d;
-
         [STAThread]
         static void Main()
-        { 
+        {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Form1());
         }
-    }
 
+
+    }
 }

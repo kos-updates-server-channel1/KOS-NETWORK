@@ -130,4 +130,40 @@
   <data name="kos_logo_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\kos_logo_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icon_png_32x32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon.png_32x32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icon_png_32x32__1_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon.png_32x32 (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icon_png_32x32__2_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon.png_32x32 (2).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icon_png_32x32__3_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon.png_32x32 (3).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icon_png_32x32__4_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon.png_32x32 (4).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kosbackground1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\kosbackground1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kosbackground2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\kosbackground2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kosbackground3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\kosbackground3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kosbackground4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\kosbackground4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="미래_대전_도시철도_노선도" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\미래+대전+도시철도+노선도.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="새_비트맵_이미지" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\새 비트맵 이미지.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
 </root>

@@ -11,7 +11,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KOZip", "KOZip\KOZip.csproj
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "unark", "..\..\..\탄소\Ark6\unark\unark.vcxproj", "{0779AB0A-F05D-4AD1-B4BF-9D693A81BB43}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KOS MINIGAME", "WindowsFormsApplication2\KOS MINIGAME.csproj", "{F547D8A7-5A33-44C2-BEDF-4ACCC625E179}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KOS MINIGAME", "KOS Minigame\KOS MINIGAME.csproj", "{F547D8A7-5A33-44C2-BEDF-4ACCC625E179}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
