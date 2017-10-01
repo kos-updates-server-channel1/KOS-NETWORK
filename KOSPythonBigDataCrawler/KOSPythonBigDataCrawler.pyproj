@@ -11,6 +11,7 @@
     <OutputPath>.</OutputPath>
     <Name>KOSPythonBigDataCrawler</Name>
     <RootNamespace>KOSPythonBigDataCrawler</RootNamespace>
+    <InterpreterId>Global|PythonCore|3.6</InterpreterId>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -21,29 +22,24 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="bs4\builder\_html5lib.py" />
-    <Compile Include="bs4\builder\_htmlparser.py" />
-    <Compile Include="bs4\builder\_lxml.py" />
-    <Compile Include="bs4\builder\__init__.py" />
-    <Compile Include="bs4\dammit.py" />
-    <Compile Include="bs4\diagnose.py" />
-    <Compile Include="bs4\element.py" />
-    <Compile Include="bs4\testing.py" />
-    <Compile Include="bs4\tests\test_builder_registry.py" />
-    <Compile Include="bs4\tests\test_docs.py" />
-    <Compile Include="bs4\tests\test_html5lib.py" />
-    <Compile Include="bs4\tests\test_htmlparser.py" />
-    <Compile Include="bs4\tests\test_lxml.py" />
-    <Compile Include="bs4\tests\test_soup.py" />
-    <Compile Include="bs4\tests\test_tree.py" />
-    <Compile Include="bs4\tests\__init__.py" />
-    <Compile Include="bs4\__init__.py" />
+    <Compile Include="15\140Diary.py" />
+    <Compile Include="15\create_db.py" />
+    <Compile Include="15\create_table.py" />
+    <Compile Include="15\delete_record.py" />
+    <Compile Include="15\insert_record.py" />
+    <Compile Include="15\select_record.py" />
+    <Compile Include="15\update_record.py" />
     <Compile Include="KOSPythonBigDataCrawler.py" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="bs4\" />
-    <Folder Include="bs4\builder\" />
-    <Folder Include="bs4\tests\" />
+    <InterpreterReference Include="Global|PythonCore|3.6" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="15\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="15\minutediary.db" />
+    <Content Include="15\test.db" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
