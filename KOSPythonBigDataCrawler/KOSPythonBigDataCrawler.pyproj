@@ -1,0 +1,57 @@
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>eddba04c-5ec2-4d51-8560-7bf499da5b70</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
+    <StartupFile>KOSPythonBigDataCrawler.py</StartupFile>
+    <SearchPath>
+    </SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <Name>KOSPythonBigDataCrawler</Name>
+    <RootNamespace>KOSPythonBigDataCrawler</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="bs4\builder\_html5lib.py" />
+    <Compile Include="bs4\builder\_htmlparser.py" />
+    <Compile Include="bs4\builder\_lxml.py" />
+    <Compile Include="bs4\builder\__init__.py" />
+    <Compile Include="bs4\dammit.py" />
+    <Compile Include="bs4\diagnose.py" />
+    <Compile Include="bs4\element.py" />
+    <Compile Include="bs4\testing.py" />
+    <Compile Include="bs4\tests\test_builder_registry.py" />
+    <Compile Include="bs4\tests\test_docs.py" />
+    <Compile Include="bs4\tests\test_html5lib.py" />
+    <Compile Include="bs4\tests\test_htmlparser.py" />
+    <Compile Include="bs4\tests\test_lxml.py" />
+    <Compile Include="bs4\tests\test_soup.py" />
+    <Compile Include="bs4\tests\test_tree.py" />
+    <Compile Include="bs4\tests\__init__.py" />
+    <Compile Include="bs4\__init__.py" />
+    <Compile Include="KOSPythonBigDataCrawler.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="bs4\" />
+    <Folder Include="bs4\builder\" />
+    <Folder Include="bs4\tests\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
+  <!-- Uncomment the CoreCompile target to enable the Build command in
+       Visual Studio and specify your pre- and post-build commands in
+       the BeforeBuild and AfterBuild targets below. -->
+  <!--<Target Name="CoreCompile" />-->
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+</Project>

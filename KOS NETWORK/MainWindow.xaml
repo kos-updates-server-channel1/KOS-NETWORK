@@ -6,7 +6,13 @@
         xmlns:local="clr-namespace:KOS_NETWORK"
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525">
-    <Grid>
-        
+    <Grid Margin="0,0,-6.333,-19.333" RenderTransformOrigin="0.995,0.076" HorizontalAlignment="Right" Width="525" Height="340" VerticalAlignment="Bottom">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="57*"/>
+            <ColumnDefinition Width="38*"/>
+            <ColumnDefinition Width="111*"/>
+            <ColumnDefinition Width="313*"/>
+        </Grid.ColumnDefinitions>
+
     </Grid>
 </Window>
