@@ -10,5 +10,8 @@ def get_html(url):
 
 URL = "https://kos623.wordpress.com/"
 html = get_html(URL)
+import insert_record
+
 soup = BeautifulSoup(html, 'html.parser')
 link = soup.find("a",{"": ""})
+

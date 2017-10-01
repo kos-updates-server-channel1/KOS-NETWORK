@@ -26,20 +26,19 @@
     <Compile Include="15\create_db.py" />
     <Compile Include="15\create_table.py" />
     <Compile Include="15\delete_record.py" />
-    <Compile Include="15\insert_record.py" />
+    <Compile Include="insert_record.py" />
     <Compile Include="15\select_record.py" />
     <Compile Include="15\update_record.py" />
+    <Compile Include="15\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="KOSPythonBigDataCrawler.py" />
   </ItemGroup>
   <ItemGroup>
     <InterpreterReference Include="Global|PythonCore|3.6" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="15\" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="15\minutediary.db" />
-    <Content Include="15\test.db" />
+    <Folder Include="DBMS\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in

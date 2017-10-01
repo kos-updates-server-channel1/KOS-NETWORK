@@ -1,5 +1,5 @@
 import sqlite3
-conn = sqlite3.connect('minutediary.db')
+conn = sqlite3.connect('CrawlData.db')
 cursor = conn.cursor()
 
 cursor.execute("""

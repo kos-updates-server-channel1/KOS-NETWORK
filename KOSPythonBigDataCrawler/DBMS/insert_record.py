@@ -1,6 +1,6 @@
 ﻿import sqlite3
 
-conn = sqlite3.connect('test.db')
+conn = sqlite3.connect('CrawlData.db')
 cursor = conn.cursor()
 
 cursor.execute("""
